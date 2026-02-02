@@ -1,7 +1,7 @@
 repos:
   # Ruff for linting and formatting
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.9.6  # Use same version as in dev dependencies
+    rev: v0.14.14  # Use same version as in dev dependencies
     hooks:
       # Run ruff linter
       - id: ruff
@@ -14,7 +14,7 @@ repos:
 
   # Basic file checks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       # Remove trailing whitespace
       - id: trailing-whitespace
